@@ -11,14 +11,39 @@
       background-size: cover;
       background-attachment: fixed;
 }
+.listanavegacao{
+       display: flex;
+       flex-direction: row;
+       justify-content: end;
+       padding-top: 30px;
+}
 
-#titulo-principal{
-       text-align: center;
-       position: relative;
-       top: 49%;
-       font-family: 'Roboto Condensed', sans-serif;
-       font-size:4em ;
-       color: grey;
+.itemnavegacao{
+       padding: 10px;
+       color: white;
+       font-family:'Roboto', sans-serif ;
+       font-size: 1.3em;
+       list-style: none;
+       border-style: solid;
+       border-width: 1.5px;
+       border-radius: 20px;
+       margin-right: 50px;
+       cursor: pointer;
+}
+.itemnavegacao:hover{
+       padding: 10px;
+       color: #0a71b4;
+       background-color: white;
+       font-family:'Roboto', sans-serif ;
+       font-size: 1.3em;
+       list-style: none;
+       border-style: solid;
+       border-width: 1.5px;
+       border-color: #0a71b4;
+       border-radius: 20px;
+       margin-right: 50px;
+       cursor: pointer;
+       transition: 0.5s;
 }
 
 .espaco-artigo{
